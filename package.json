@@ -1,0 +1,25 @@
+{
+  "name": "playwright-api-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-grade API automation framework using Playwright",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api": "npx playwright test --project=api-tests",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "api-testing",
+    "automation",
+    "enterprise"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}
